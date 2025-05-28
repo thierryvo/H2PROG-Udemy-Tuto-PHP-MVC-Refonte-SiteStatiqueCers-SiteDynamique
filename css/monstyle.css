@@ -1,0 +1,117 @@
+/*+++++++++ debut all page +++++++++*/
+.clickable{cursor: pointer;}
+
+/* pour placer la class container juste: en-dessous du MENU NAVBAR */
+.margetop60 {margin-top: 60px;}
+.margetop30 {margin-top: 30px;}
+
+
+/* Définir une police Copse pour le body tout entier */
+body {
+    background-color: rgb(240, 238, 238);
+    font-family: 'Copse', serif;
+    color: #44586e;
+    font-size: 16px;
+}
+/* hr  balise hr de séparation  */
+hr{
+    border-color:#44586e;
+    margin:2% 20%;
+}
+
+
+
+/* Class perso qui commence par perso_ : pour le Titre */
+/*       on y met une police sexy: Fredoka One         */
+.perso_policeTitre_Fredoka{font-family: 'Fredoka One', cursive;}
+h1{
+    font-size: 40px;
+    color: #2980b9;
+}
+/* Class perso qui commence par perso_ : une box shadow */
+/*       la shadow de bootstrap est très très moche     */
+/*       donne une impression de profondeur             */
+.perso_ombrage_shadow{box-shadow: 0px 2px 15px black;}
+.perso_texte_ombrage_shadow{text-shadow: 1px 1px 1px black;}
+
+/* Class perso: perso_logoSize */
+.perso_logoSize{width:100px;}
+/* info_cacher_si_petitetaille : permer de cacher l element si ecran est petit  */
+/* d-none d-lg-block             à mettre dans la class de l element dans index */
+.info_cacher_si_petitetaille{}
+/* perso_min_CorpSize = Taille minimum du Corps de le PAGE (Au milieu du body)  */
+.perso_min_CorpSize{min-height:500px;}
+/*+++++++++ fin all page +++++++++*/
+
+
+/*+++++++++ debut menu colorisé +++++++++++++++++++++++++++++*/
+/* cela permet de coloriser le texte du menu                 */
+/* important = color c'est ce color là qui est pris en compte*/
+.perso_ColorMenuRose{color : #FF00FF !important;}
+.perso_ColorMenuOrange{color : rgb(247, 179, 91) !important;}
+.perso_ColorMenuVert{color : #34C924 !important;}
+.perso_ColorMenuRouge{color : rgb(230, 78, 78) !important;}
+.perso_ColorMenuBleuCiel{color : #40E0D0 !important;}
+.perso_size26{font-size:26px;}
+.perso_size20{font-size:20px;}
+.perso_size12{font-size:12px;}
+.perso_bgGreen{background-color:rgba(175, 233, 175, 0.827) !important;}
+.perso_bgOrange{background-color:rgb(248, 207, 153);}
+.perso_bgRose{background-color:rgb(230, 196, 230);}
+/*+++++++++ fin   menu colorisé +++++++++++++++++++++++++++++*/
+
+
+
+
+/* +++++++++ debut login page ++++++++*/
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login h4 {color: #888;}
+.login input {margin-bottom: 10px;}
+/* +++++++++ debut login page ++++++++*/
+
+
+
+/*  +++++++ debut edit pwd ++++++   */
+.editpwd-page h1,h2{color: #2e6da4;}
+
+.editpwd-page h1{font-size: 45px;}
+
+
+.editpwd-page h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.editpwd-page form{
+    width: 400px;
+    margin: auto;
+}
+
+.editpwd-page input{margin-bottom: 20px;}
+
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.show-old-pwd,.show-new-pwd {
+    position: absolute;
+    top: 0px;
+    right: -35px;
+}
+
+
+/*  +++++++ fin edit pwd ++++++   */
+
+
+
+/*+++++++++  Debut nouvel utilisateur ***********/
+
+.user-page form{width: 400px;}
+
+
+/*+++++++++  fin nouvel utilisateur ***********/
