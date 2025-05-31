@@ -23,9 +23,10 @@
           Pensionnaires
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">          
-          <a class="dropdown-item perso_ColorMenuOrange" href="../Globals/pensionnaire.php">Ils cherchent une famille</a>
-          <a class="dropdown-item perso_ColorMenuOrange" href="#">Famille d'Accueil Longue Durée</a>
-          <a class="dropdown-item perso_ColorMenuOrange" href="#">Les anciens</a>
+          <a class="dropdown-item perso_ColorMenuOrange" href="../Globals/pensionnaire.php?id_statut=<?= ID_STATUT_A_L_ADOPTION ?>">Ils cherchent une famille</a>
+          <a class="dropdown-item perso_ColorMenuOrange" href="../Globals/pensionnaire.php?id_statut=<?= ID_STATUT_FAMILLE_ACCEUIL_LONGUE_DUREE ?>">Famille d'Accueil Longue Durée</a>
+          <a class="dropdown-item perso_ColorMenuOrange" href="../Globals/pensionnaire.php?id_statut=<?= ID_STATUT_ADOPTE ?>">Les anciens</a>
+          <a class="dropdown-item perso_ColorMenuOrange" href="../Globals/pensionnaire.php?id_statut=<?= ID_STATUT_MORT ?>">Les montés au ciel (DCD)</a>
         </div>
       </li>
       <!-- Dropdown liste: Actus -->

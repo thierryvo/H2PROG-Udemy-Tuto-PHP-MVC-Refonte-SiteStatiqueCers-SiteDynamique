@@ -1,6 +1,6 @@
 <?php 
-include("../../utile/formatage.php"); 
-include("../../utile/config.php"); 
+require_once("../../utile/formatage.php"); 
+require_once("../../utile/config.php"); 
 ?>
 <!DOCTYPE html>
 <html lang="fr">
